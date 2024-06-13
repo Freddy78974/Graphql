@@ -39,11 +39,11 @@ export function auth (username, password) {
         if(!response.ok){
             if(response.status === 401) {
                 alert('Invalid username or password');
-                window.location.href = '/index.html'
+                window.location.href = 'https://freddy78974.github.io/Graphql/'
                 return
             }else{
                 alert('An error has occured');
-                window.location.href = '/index.html'
+                window.location.href = 'https://freddy78974.github.io/Graphql/'
                 return
             }           
         }

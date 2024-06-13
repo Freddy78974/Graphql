@@ -7,7 +7,7 @@ constants.submitBtn.addEventListener('click', () => {
 
 constants.btnLogout.addEventListener('click', () => {
     localStorage.removeItem('user');
-    window.location.href = '/index.html'
+    window.location.href = 'https://freddy78974.github.io/Graphql/'
     // window.location.reload();
 });
 
