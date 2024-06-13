@@ -24,7 +24,6 @@ export function displayUserInfo(data) {
   constants.level.innerText = lvl;
   console.log("level",constants.level);
 
-  // Merci TheOldestBrother <3
   const currentDate = new Date();
   let minimumDate = new Date();
   let startXP = 0;
@@ -49,7 +48,6 @@ export function displayUserInfo(data) {
     return `${accumulator}${x},${y} `;
   }, "");
   console.log("🚀 ~ points ~ points:", points);
-  // Merci TheOldestBrother <3
 
   constants.firstSVG.innerHTML = `
   <h4 class="text-center">Graphiques</h4>
@@ -69,7 +67,6 @@ export function displayUserInfo(data) {
     </div>
 `;
 }
-
 
 function generateBar(totalUp, totalDown, auditRatio) {
   const total = totalUp + totalDown;
